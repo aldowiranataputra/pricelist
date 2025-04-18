@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ==========================================================
     // DATA PRODUK - CONTOH YANG SANGAT DIPERLUAS
-    // GANTI SEMUA INI DENGAN STOK DAN HARGA AKTUAL Ganggha Ponsel!
+    // GANTI SEMUA INI DENGAN STOK DAN HARGA AKTUAL GHANGGA PHONSEL!
     // ==========================================================
     const productData = [
         // --- iPhone --- (Contoh sebelumnya)
