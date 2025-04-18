@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 14, brand: 'Samsung', model: 'Galaxy Z Flip 7', spec: '256GB / 8GB RAM', price: 17000000, status: 'Tersedia', imageUrl: null },
         // { id: 15, brand: 'Samsung', model: 'Galaxy A76 5G', spec: '256GB / 8GB RAM', price: 61999999, status: 'Tersedia', imageUrl: null },
         // { id: 16, brand: 'Samsung', model: 'Galaxy A56 5G', spec: '128GB / 8GB RAM', price: 6500000, status: 'Tersedia', imageUrl: null },
-        { id: 51, brand: 'Samsung', model: 'Galaxy A56 5G', spec: '256GB / 12GB RAM', price: 61999999, status: 'Tersedia', imageUrl: null },
+        { id: 51, brand: 'Samsung', model: 'Galaxy A56 5G', spec: '256GB / 8GB RAM', price: 6199999, status: 'Tersedia', imageUrl: null },
         { id: 52, brand: 'Samsung', model: 'Galaxy A36 5G', spec: '128GB / 6GB RAM', price: 4800000, status: 'Tersedia', imageUrl: null },
         { id: 53, brand: 'Samsung', model: 'Galaxy M36 5G', spec: '128GB / 8GB RAM', price: 4500000, status: 'Stok Habis', imageUrl: null },
         { id: 54, brand: 'Samsung', model: 'Galaxy A16', spec: '64GB / 4GB RAM', price: 2500000, status: 'Tersedia', imageUrl: null },
