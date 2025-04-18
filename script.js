@@ -6,14 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================
     const productData = [
         // --- iPhone --- (Contoh sebelumnya)
-        { id: 1, brand: 'iPhone', model: '16 Pro Max', spec: '256GB', price: 28500000, status: 'Tersedia', imageUrl: null },
-        { id: 2, brand: 'iPhone', model: '16 Pro Max', spec: '512GB', price: 31000000, status: 'Tersedia', imageUrl: null },
-        { id: 3, brand: 'iPhone', model: '16 Pro', spec: '128GB', price: 24000000, status: 'Stok Habis', imageUrl: null },
-        { id: 4, brand: 'iPhone', model: '16 Pro', spec: '256GB', price: 26500000, status: 'Tersedia', imageUrl: null },
-        { id: 5, brand: 'iPhone', model: '16', spec: '128GB', price: 18000000, status: 'Tersedia', imageUrl: null },
-        { id: 6, brand: 'iPhone', model: '16', spec: '256GB', price: 20000000, status: 'Tersedia', imageUrl: null },
-        { id: 7, brand: 'iPhone', model: '15 Pro', spec: '256GB', price: 21000000, status: 'Tersedia', imageUrl: null },
-        { id: 8, brand: 'iPhone', model: '15', spec: '128GB', price: 15500000, status: 'Tersedia', imageUrl: null },
+        { id: 1, brand: 'iPhone', model: '16 Pro Max', spec: '256GB', price: 22499999, status: 'Tersedia', imageUrl: null },
+        { id: 2, brand: 'iPhone', model: '16 Pro Max', spec: '512GB', price: 27999999, status: 'Tersedia', imageUrl: null },
+        { id: 3, brand: 'iPhone', model: '16 Pro', spec: '128GB', price: 18499999, status: 'Tersedia', imageUrl: null },
+        { id: 4, brand: 'iPhone', model: '16 Pro', spec: '256GB', price: 21499999, status: 'Tersedia', imageUrl: null },
+        { id: 5, brand: 'iPhone', model: '16', spec: '128GB', price: 14999999, status: 'Tersedia', imageUrl: null },
+        { id: 6, brand: 'iPhone', model: '16', spec: '256GB', price: 17499999, status: 'Tersedia', imageUrl: null },
+        { id: 7, brand: 'iPhone', model: '15 Pro', spec: '256GB', price: 21000000, status: 'Stok Habis', imageUrl: null },
+        { id: 8, brand: 'iPhone', model: '15', spec: '128GB', price: 11499999, status: 'Tersedia', imageUrl: null },
 
         // --- Samsung --- (Contoh sebelumnya)
         { id: 9, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '256GB / 12GB RAM', price: 25000000, status: 'Tersedia', imageUrl: null },
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 21, brand: 'Vivo', model: 'Y59 5G', spec: '256GB / 8GB RAM', price: 4500000, status: 'Tersedia', imageUrl: null },
         { id: 57, brand: 'Vivo', model: 'Y39s', spec: '128GB / 8GB RAM', price: 3800000, status: 'Tersedia', imageUrl: null },
         { id: 58, brand: 'Vivo', model: 'Y29', spec: '128GB / 6GB RAM', price: 3100000, status: 'Tersedia', imageUrl: null },
-        { id: 59, brand: 'Vivo', model: 'Y19t', spec: '64GB / 4GB RAM', price: 2300000, status: 'Stok Habis', imageUrl: null },
+        { id: 59, brand: 'Vivo', model: 'Y19t', spec: '64GB / 4GB RAM', price: 2300000, status: 'Tersedia', imageUrl: null },
         { id: 60, brand: 'Vivo', model: 'Y05', spec: '32GB / 3GB RAM', price: 1600000, status: 'Tersedia', imageUrl: null },
 
 
