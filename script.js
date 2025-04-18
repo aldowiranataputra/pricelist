@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // --- Samsung --- (Contoh sebelumnya)
         { id: 9, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '256GB / 12GB RAM', price: 25000000, status: 'Tersedia', imageUrl: null },
         { id: 10, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '512GB / 12GB RAM', price: 28000000, status: 'Tersedia', imageUrl: null },
-        { id: 11, brand: 'Samsung', model: 'Galaxy S25+', spec: '256GB / 8GB RAM', price: 19000000, status: 'Stok Habis', imageUrl: null },
+        { id: 11, brand: 'Samsung', model: 'Galaxy S25+', spec: '256GB / 8GB RAM', price: 19000000, status: 'Tersedia', imageUrl: null },
         { id: 12, brand: 'Samsung', model: 'Galaxy S25', spec: '128GB / 8GB RAM', price: 16500000, status: 'Tersedia', imageUrl: null },
         { id: 13, brand: 'Samsung', model: 'Galaxy Z Fold 7', spec: '512GB / 12GB RAM', price: 33000000, status: 'Tersedia', imageUrl: null },
         { id: 14, brand: 'Samsung', model: 'Galaxy Z Flip 7', spec: '256GB / 8GB RAM', price: 17000000, status: 'Tersedia', imageUrl: null },
