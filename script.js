@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 52, brand: 'Samsung', model: 'Galaxy A36 5G', spec: '128GB / 6GB RAM', price: 4800000, originalPrice: 5100000, status: 'Tersedia', imageUrl: null },
         { id: 53, brand: 'Samsung', model: 'Galaxy M36 5G', spec: '128GB / 8GB RAM', price: 4500000, originalPrice: 4800000, status: 'Stok Habis', imageUrl: null },
         { id: 54, brand: 'Samsung', model: 'Galaxy A16', spec: '64GB / 4GB RAM', price: 2500000, originalPrice: 2700000, status: 'Tersedia', imageUrl: null },
-        { id: 55, brand: 'Samsung', model: 'Galaxy A06', spec: '128GB / 6GB RAM', price: 2399999, originalPrice: 2499999, status: 'Tersedia', imageUrl: null },
+        // { id: 55, brand: 'Samsung', model: 'Galaxy A06 Core', spec: '32GB / 3GB RAM', price: 1500000, originalPrice: 1650000, status: 'Tersedia', imageUrl: null },
 
         // --- Vivo ---
         { id: 17, brand: 'Vivo', model: 'X110 Pro+', spec: '512GB / 16GB RAM', price: 19500000, originalPrice: 20500000, status: 'Tersedia', imageUrl: null },
