@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // --- Samsung ---
         { id: 9, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '256GB / 12GB RAM', price: 22999000, originalPrice: 26000000, status: 'Tersedia', imageUrl: null },
         { id: 10, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '512GB / 12GB RAM', price: 22999000, originalPrice: 24499000, status: 'Tersedia', imageUrl: null },
-        { id: 11, brand: 'Samsung', model: 'Galaxy S25+', spec: '256GB / 12GB RAM', price: 17999000, originalPrice: 17999000, status: 'Tersedia', imageUrl: null },
+        { id: 11, brand: 'Samsung', model: 'Galaxy S25+', spec: '256GB / 12GB RAM', price: 17999000, originalPrice: 19999000, status: 'Tersedia', imageUrl: null },
         { id: 12, brand: 'Samsung', model: 'Galaxy S25', spec: '256GB / 12GB RAM', price: 14999000, originalPrice: 16999000, status: 'Tersedia', imageUrl: null },
         { id: 13, brand: 'Samsung', model: 'Galaxy Z Fold 7', spec: '512GB / 12GB RAM', price: 33000000, originalPrice: 34500000, status: 'Tersedia', imageUrl: null },
         { id: 14, brand: 'Samsung', model: 'Galaxy Z Flip 7', spec: '256GB / 8GB RAM', price: 17000000, originalPrice: 17800000, status: 'Tersedia', imageUrl: null },
