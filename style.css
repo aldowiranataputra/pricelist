@@ -1,24 +1,37 @@
 /* style.css */
 
-/* Contoh: Sedikit padding tambahan di body */
 body {
     padding-bottom: 70px; /* Beri ruang agar footer tidak menempel */
 }
 
-/* Contoh: Style kustom untuk tabel jika diperlukan */
-/* .table {
-    font-size: 0.95em;
-} */
+/* Styling untuk harga coret */
+.original-price {
+  font-size: 0.85em; /* Buat sedikit lebih kecil */
+  display: block; /* Pastikan menempati baris sendiri karena ada <br> */
+  line-height: 1; /* Atur jarak baris jika perlu */
+}
 
-/* Sesuaikan warna tombol filter jika ingin beda dari default Bootstrap */
-/* .filter-btn {
-    border-color: #your-color;
-    color: #your-color;
+.current-price {
+  /* Anda bisa menambahkan warna khusus jika ingin menonjolkan harga diskon */
+  /* color: #d9534f; */ /* Contoh warna merah */
+  line-height: 1.2; /* Sedikit ruang di bawah harga */
 }
-.filter-btn.active {
-    background-color: #your-color;
-    color: white;
+
+/* Styling tambahan untuk badge diskon */
+.discount-badge {
+  font-size: 0.7em; /* Kecilkan ukuran font badge */
+  padding: 0.2em 0.4em; /* Sesuaikan padding badge */
+  vertical-align: middle; /* Coba tengahkan vertikal */
 }
-.filter-btn:hover {
-     background-color: #your-light-color;
-} */
+
+/* Optional: Beri sedikit ruang di sel harga */
+.price-cell {
+    line-height: 1.3;
+    /* Pastikan rata kanan bekerja dengan baik */
+    vertical-align: middle;
+}
+
+/* Pastikan tombol filter rapi saat wrap */
+.btn-group {
+    vertical-align: top;
+}
