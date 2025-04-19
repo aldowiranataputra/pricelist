@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // --- Samsung ---
         { id: 9, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '256GB / 12GB RAM', price: 22999000, originalPrice: 26000000, status: 'Tersedia', imageUrl: null },
         { id: 10, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '512GB / 12GB RAM', price: 22999000, originalPrice: 24499000, status: 'Tersedia', imageUrl: null },
-        { id: 11, brand: 'Samsung', model: 'Galaxy S25+', spec: '256GB / 12GB RAM', price: 17999000, originalPrice: 0, status: 'Tersedia', imageUrl: null },
-        { id: 12, brand: 'Samsung', model: 'Galaxy S25', spec: '256GB / 12GB RAM', price: 14999000, originalPrice: 0, status: 'Tersedia', imageUrl: null },
+        { id: 11, brand: 'Samsung', model: 'Galaxy S25+', spec: '256GB / 12GB RAM', price: 17999000, originalPrice: 17999000, status: 'Tersedia', imageUrl: null },
+        { id: 12, brand: 'Samsung', model: 'Galaxy S25', spec: '256GB / 12GB RAM', price: 14999000, originalPrice: 16999000, status: 'Tersedia', imageUrl: null },
         { id: 13, brand: 'Samsung', model: 'Galaxy Z Fold 7', spec: '512GB / 12GB RAM', price: 33000000, originalPrice: 34500000, status: 'Tersedia', imageUrl: null },
         { id: 14, brand: 'Samsung', model: 'Galaxy Z Flip 7', spec: '256GB / 8GB RAM', price: 17000000, originalPrice: 17800000, status: 'Tersedia', imageUrl: null },
         { id: 15, brand: 'Samsung', model: 'Galaxy S24 FE 5G', spec: '256GB / 8GB RAM', price: 8399000, originalPrice: 10999000, status: 'Tersedia', imageUrl: null },
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 56, brand: 'Vivo', model: 'V35e', spec: '128GB / 8GB RAM', price: 5200000, originalPrice: 5600000, status: 'Tersedia', imageUrl: null },
         { id: 21, brand: 'Vivo', model: 'Y59 5G', spec: '256GB / 8GB RAM', price: 4500000, originalPrice: 4800000, status: 'Tersedia', imageUrl: null },
         { id: 57, brand: 'Vivo', model: 'Y39s', spec: '128GB / 8GB RAM', price: 3800000, originalPrice: 4100000, status: 'Tersedia', imageUrl: null },
-        { id: 58, brand: 'Vivo', model: 'Y29', spec: '128GB / 6GB RAM', price: 2399000, originalPrice: 0, status: 'Tersedia', imageUrl: null },
+        { id: 58, brand: 'Vivo', model: 'Y29', spec: '128GB / 6GB RAM', price: 2399000, originalPrice: 2499000, status: 'Tersedia', imageUrl: null },
         { id: 59, brand: 'Vivo', model: 'Y19t', spec: '64GB / 4GB RAM', price: 1499000, originalPrice: 1599000, status: 'Stok Habis', imageUrl: null },
         { id: 60, brand: 'Vivo', model: 'Y05', spec: '32GB / 3GB RAM', price: 1600000, originalPrice: 1750000, status: 'Tersedia', imageUrl: null },
 
