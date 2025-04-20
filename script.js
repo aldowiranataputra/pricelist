@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 30, brand: 'Xiaomi', model: 'Redmi Note 14 5G', spec: '256GB / 8GB RAM', price: 3199000, originalPrice: 4800000, status: 'Tersedia', imageUrl: null },
         { id: 70, brand: 'Xiaomi', model: 'Redmi Note 14 Pro 5G', spec: '256GB / 8GB RAM', price: 3699000, originalPrice: 3999000, status: 'Tersedia', imageUrl: null },
         { id: 71, brand: 'Xiaomi', model: '14T', spec: '512GB / 12GB RAM', price: 6999000, originalPrice: 7299000, status: 'Tersedia', imageUrl: null },
-        { id: 72, brand: 'Xiaomi', model: '14T Pro', spec: '512DB / 12GB RAM', price: 8999000, originalPrice: 91999000, status: 'Tersedia', imageUrl: null },
+        { id: 72, brand: 'Xiaomi', model: '14T Pro', spec: '512DB / 12GB RAM', price: 8999000, originalPrice: 9199900, status: 'Tersedia', imageUrl: null },
         { id: 31, brand: 'Xiaomi', model: 'Poco F7 Pro', spec: '256GB / 12GB RAM', price: 7800000, originalPrice: 8200000, status: 'Tersedia', imageUrl: null },
         { id: 73, brand: 'Xiaomi', model: 'Poco F7', spec: '128GB / 8GB RAM', price: 6500000, originalPrice: 6900000, status: 'Stok Habis', imageUrl: null },
         { id: 74, brand: 'Xiaomi', model: 'Poco X7 Pro 5G', spec: '256GB / 8GB RAM', price: 5200000, originalPrice: 5500000, status: 'Tersedia', imageUrl: null },
