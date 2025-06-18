@@ -5,28 +5,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // !! HARGA (price & originalPrice) BUKAN HARGA PASARAN INDONESIA AKTUAL !!
     // !! GANGHGA PONSEL WAJIB MENGGANTI SEMUA DATA INI SESUAI STOK & HARGA TOKO !!
     // =======================================================================
+    // Update harga per: 10 Juni 2024 (mengikuti harga pasar Indonesia, update manual)
+    // Untuk update harga real-time, integrasi API harga diperlukan (belum tersedia di script ini)
     const productData = [
         // --- iPhone ---
-        { id: 1, brand: 'iPhone', model: 'iPhone 16 Pro Max', spec: '256GB', price: 22499999, originalPrice: 29500000, status: 'Tersedia', imageUrl: null },
-        { id: 2, brand: 'iPhone', model: 'iPhone 16 Pro Max', spec: '512GB', price: 27999999, originalPrice: 32000000, status: 'Tersedia', imageUrl: null },
-        { id: 3, brand: 'iPhone', model: 'iPhone 16 Pro', spec: '128GB', price: 18499999, originalPrice: 25000000, status: 'Tersedia', imageUrl: null },
-        { id: 4, brand: 'iPhone', model: 'iPhone 16 Pro', spec: '256GB', price: 21499999, originalPrice: 27500000, status: 'Tersedia', imageUrl: null },
-        { id: 5, brand: 'iPhone', model: 'iPhone 16', spec: '128GB', price: 14999999, originalPrice: 18900000, status: 'Tersedia', imageUrl: null },
-        { id: 6, brand: 'iPhone', model: 'iPhone 16', spec: '256GB', price: 17499999, originalPrice: 20900000, status: 'Tersedia', imageUrl: null },
+        { id: 1, brand: 'iPhone', model: 'iPhone 16 Pro Max', spec: '256GB', price: 24999000, originalPrice: 29500000, status: 'Tersedia', imageUrl: null },
+        { id: 2, brand: 'iPhone', model: 'iPhone 16 Pro Max', spec: '512GB', price: 28999000, originalPrice: 32000000, status: 'Tersedia', imageUrl: null },
+        { id: 3, brand: 'iPhone', model: 'iPhone 16 Pro', spec: '128GB', price: 19999000, originalPrice: 25000000, status: 'Tersedia', imageUrl: null },
+        { id: 4, brand: 'iPhone', model: 'iPhone 16 Pro', spec: '256GB', price: 22999000, originalPrice: 27500000, status: 'Tersedia', imageUrl: null },
+        { id: 5, brand: 'iPhone', model: 'iPhone 16', spec: '128GB', price: 15999000, originalPrice: 18900000, status: 'Tersedia', imageUrl: null },
+        { id: 6, brand: 'iPhone', model: 'iPhone 16', spec: '256GB', price: 17999000, originalPrice: 20900000, status: 'Tersedia', imageUrl: null },
         { id: 7, brand: 'iPhone', model: 'iPhone 15 Pro', spec: '256GB', price: 21000000, originalPrice: 21800000, status: 'Stok Habis', imageUrl: null },
-        { id: 8, brand: 'iPhone', model: 'iPhone 15', spec: '128GB', price: 11499999, originalPrice: 16000000, status: 'Tersedia', imageUrl: null },
-        { id: 9, brand: 'iPhone', model: 'iPhone 13', spec: '128GB', price: 8499999, originalPrice: 10100000, status: 'Tersedia', imageUrl: null },
+        { id: 8, brand: 'iPhone', model: 'iPhone 15', spec: '128GB', price: 13999000, originalPrice: 16000000, status: 'Tersedia', imageUrl: null },
+        { id: 9, brand: 'iPhone', model: 'iPhone 13', spec: '128GB', price: 8999000, originalPrice: 10100000, status: 'Tersedia', imageUrl: null },
 
         // --- Samsung ---
-        { id: 9, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '256GB / 12GB RAM', price: 22999000, originalPrice: 26000000, status: 'Tersedia', imageUrl: null },
+        { id: 9, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '256GB / 12GB RAM', price: 20999000, originalPrice: 26000000, status: 'Tersedia', imageUrl: null },
         { id: 10, brand: 'Samsung', model: 'Galaxy S25 Ultra', spec: '512GB / 12GB RAM', price: 22999000, originalPrice: 24499000, status: 'Tersedia', imageUrl: null },
-        { id: 11, brand: 'Samsung', model: 'Galaxy S25+', spec: '256GB / 12GB RAM', price: 17999000, originalPrice: 19999000, status: 'Tersedia', imageUrl: null },
-        { id: 12, brand: 'Samsung', model: 'Galaxy S25', spec: '256GB / 12GB RAM', price: 14999000, originalPrice: 16999000, status: 'Tersedia', imageUrl: null },
+        { id: 11, brand: 'Samsung', model: 'Galaxy S25+', spec: '256GB / 12GB RAM', price: 17999000, originalPrice: 0, status: 'Tersedia', imageUrl: null },
+        { id: 12, brand: 'Samsung', model: 'Galaxy S25', spec: '256GB / 12GB RAM', price: 14999000, originalPrice: 0, status: 'Tersedia', imageUrl: null },
         { id: 13, brand: 'Samsung', model: 'Galaxy Z Fold 7', spec: '512GB / 12GB RAM', price: 33000000, originalPrice: 34500000, status: 'Tersedia', imageUrl: null },
         { id: 14, brand: 'Samsung', model: 'Galaxy Z Flip 7', spec: '256GB / 8GB RAM', price: 17000000, originalPrice: 17800000, status: 'Tersedia', imageUrl: null },
         { id: 15, brand: 'Samsung', model: 'Galaxy S24 FE 5G', spec: '256GB / 8GB RAM', price: 8399000, originalPrice: 10999000, status: 'Tersedia', imageUrl: null },
         { id: 16, brand: 'Samsung', model: 'Galaxy A56 5G', spec: '256GB / 12GB RAM', price: 6699000, originalPrice: 7199000, status: 'Tersedia', imageUrl: null },
-        { id: 51, brand: 'Samsung', model: 'Galaxy A56 5G', spec: '256GB / 8GB RAM', price: 6199999, originalPrice: 7600000, status: 'Tersedia', imageUrl: null },
+        { id: 51, brand: 'Samsung', model: 'Galaxy A56 5G', spec: '256GB / 8GB RAM', price: 6199000, originalPrice: 7600000, status: 'Tersedia', imageUrl: null },
         { id: 52, brand: 'Samsung', model: 'Galaxy A36 5G', spec: '256GB / 8GB RAM', price: 5199000, originalPrice: 5699000, status: 'Tersedia', imageUrl: null },
         { id: 53, brand: 'Samsung', model: 'Galaxy M36 5G', spec: '128GB / 8GB RAM', price: 4500000, originalPrice: 4800000, status: 'Stok Habis', imageUrl: null },
         { id: 54, brand: 'Samsung', model: 'Galaxy A16', spec: '64GB / 4GB RAM', price: 2500000, originalPrice: 2700000, status: 'Tersedia', imageUrl: null },
@@ -40,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 56, brand: 'Vivo', model: 'V35e', spec: '128GB / 8GB RAM', price: 5200000, originalPrice: 5600000, status: 'Tersedia', imageUrl: null },
         { id: 21, brand: 'Vivo', model: 'Y59 5G', spec: '256GB / 8GB RAM', price: 4500000, originalPrice: 4800000, status: 'Tersedia', imageUrl: null },
         { id: 57, brand: 'Vivo', model: 'Y39s', spec: '128GB / 8GB RAM', price: 3800000, originalPrice: 4100000, status: 'Tersedia', imageUrl: null },
-        { id: 58, brand: 'Vivo', model: 'Y29', spec: '128GB / 6GB RAM', price: 2399000, originalPrice: 2499000, status: 'Tersedia', imageUrl: null },
+        { id: 58, brand: 'Vivo', model: 'Y29', spec: '128GB / 6GB RAM', price: 2399000, originalPrice: 0, status: 'Tersedia', imageUrl: null },
         { id: 59, brand: 'Vivo', model: 'Y19t', spec: '64GB / 4GB RAM', price: 1499000, originalPrice: 1599000, status: 'Stok Habis', imageUrl: null },
         { id: 60, brand: 'Vivo', model: 'Y05', spec: '32GB / 3GB RAM', price: 1600000, originalPrice: 1750000, status: 'Tersedia', imageUrl: null },
 
@@ -49,8 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 61, brand: 'Oppo', model: 'Find X8', spec: '256GB / 12GB RAM', price: 17500000, originalPrice: 18500000, status: 'Stok Habis', imageUrl: null },
         { id: 23, brand: 'Oppo', model: 'Reno 13 Pro+', spec: '512GB / 12GB RAM', price: 11000000, originalPrice: 11800000, status: 'Tersedia', imageUrl: null },
         { id: 62, brand: 'Oppo', model: 'Reno 13 Pro', spec: '256GB / 12GB RAM', price: 9500000, originalPrice: 9999000, status: 'Tersedia', imageUrl: null },
-        { id: 24, brand: 'Oppo', model: 'Reno 13 5G', spec: '256GB / 8GB RAM', price: 8999000, originalPrice: 9199000, status: 'Tersedia', imageUrl: null },
-        { id: 63, brand: 'Oppo', model: 'Reno 13 F 5G', spec: '256GB / 12GB RAM', price: 5990000, originalPrice: 6299000, status: 'Tersedia', imageUrl: null },
+        { id: 24, brand: 'Oppo', model: 'Reno 13 5G', spec: '256GB / 8GB RAM', price: 8999000, originalPrice: 0, status: 'Tersedia', imageUrl: null },
+        { id: 63, brand: 'Oppo', model: 'Reno 13 F 5G', spec: '256GB / 12GB RAM', price: 599000, originalPrice: 0, status: 'Tersedia', imageUrl: null },
         { id: 25, brand: 'Oppo', model: 'A99 5G', spec: '256GB / 8GB RAM', price: 5500000, originalPrice: 5900000, status: 'Stok Habis', imageUrl: null },
         { id: 64, brand: 'Oppo', model: 'A85 5G', spec: '128GB / 8GB RAM', price: 4500000, originalPrice: 4800000, status: 'Tersedia', imageUrl: null },
         { id: 26, brand: 'Oppo', model: 'A65s', spec: '128GB / 6GB RAM', price: 3200000, originalPrice: 3400000, status: 'Tersedia', imageUrl: null },
@@ -66,12 +68,12 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 69, brand: 'Xiaomi', model: 'Redmi Note 14', spec: '256GB / 8GB RAM', price: 2599000, originalPrice: 2799000, status: 'Tersedia', imageUrl: null },
         { id: 30, brand: 'Xiaomi', model: 'Redmi Note 14 5G', spec: '256GB / 8GB RAM', price: 3199000, originalPrice: 4800000, status: 'Tersedia', imageUrl: null },
         { id: 70, brand: 'Xiaomi', model: 'Redmi Note 14 Pro 5G', spec: '256GB / 8GB RAM', price: 3699000, originalPrice: 3999000, status: 'Tersedia', imageUrl: null },
-        { id: 71, brand: 'Xiaomi', model: '14T', spec: '512GB / 12GB RAM', price: 6999000, originalPrice: 7299000, status: 'Tersedia', imageUrl: null },
-        { id: 72, brand: 'Xiaomi', model: '14T Pro', spec: '512GB / 12GB RAM', price: 8999000, originalPrice: 9199000, status: 'Tersedia', imageUrl: null },
+        { id: 71, brand: 'Xiaomi', model: 'Xiaomi 14T', spec: '512GB / 12GB RAM', price: 6999000, originalPrice: 7299000, status: 'Tersedia', imageUrl: null },
+        { id: 72, brand: 'Xiaomi', model: 'Xiaomi 14T Pro', spec: '512DB / 12GB RAM', price: 8999000, originalPrice: 0, status: 'Tersedia', imageUrl: null },
         { id: 31, brand: 'Xiaomi', model: 'Poco F7 Pro', spec: '256GB / 12GB RAM', price: 7800000, originalPrice: 8200000, status: 'Tersedia', imageUrl: null },
         { id: 73, brand: 'Xiaomi', model: 'Poco F7', spec: '128GB / 8GB RAM', price: 6500000, originalPrice: 6900000, status: 'Stok Habis', imageUrl: null },
         { id: 74, brand: 'Xiaomi', model: 'Poco X7 Pro 5G', spec: '256GB / 8GB RAM', price: 5200000, originalPrice: 5500000, status: 'Tersedia', imageUrl: null },
-        { id: 32, brand: 'Xiaomi', model: 'Pad 6', spec: '25GB / 8GB RAM', price: 4999000, originalPrice: 5299000 , status: 'Tersedia', imageUrl: null },
+        { id: 32, brand: 'Xiaomi', model: 'Xioami pad 6', spec: '25GB / 8GB RAM', price: 4999000, originalPrice: 0 , status: 'Tersedia', imageUrl: null },
         { id: 75, brand: 'Xiaomi', model: 'Redmi Pad SE', spec: '128GB / 4GB RAM', price: 1999000, originalPrice: 2199000, status: 'Tersedia', imageUrl: null },
         { id: 76, brand: 'Xiaomi', model: 'Redmi 14C', spec: '128GB / 6GB RAM', price: 1399000, originalPrice: 1499000, status: 'Tersedia', imageUrl: null },
 
